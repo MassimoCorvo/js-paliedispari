@@ -19,12 +19,8 @@ console.log(result);
 function isPalindrome(wordToCheck) {
 
     const wordArray = wordToCheck.split("");
-    console.log(wordArray);
-
     const wordArrayLength = wordArray.length;
-
     const wordArrayReverse = wordArray.toReversed();
-    console.log(wordArrayReverse);
 
     let result = "E' palindroma";
 
